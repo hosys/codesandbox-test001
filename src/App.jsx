@@ -12,7 +12,7 @@ export const App = () => {
         <p>データ取得中</p>
       ) : (
         userList.map((user) => (
-          <p key={user.id}>{`${user.id}:${user.name}(${user.age} 才)`}</p>
+          <p key={user.id}>{`${user.id}:${user.name}(${user.age} 歳)`}</p>
         ))
       )}
     </div>
